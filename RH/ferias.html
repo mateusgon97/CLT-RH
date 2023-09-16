@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Férias</title>
+    <link rel="icon" type="image/x-icon" href="img\logo.jpg">
+</head>
+<body>
+    <link rel="stylesheet" href="main.css">
+    <div>
+        <h1>Férias</h1>
+        <nav>
+            <a class="menu" href="index.html">HOME</a>
+            <a class="menu" href="salarioLiquido.html">Salário Líquido</a>
+            <a class="menu" href="ferias.html">Férias</a>
+            <a class="menu" href="rescisao.html">Rescisão</a>
+        </nav>
+    </div>
+    <br>
+    <div>
+        <h2 class="format1">CALCULADORA DE FÉRIAS</h2>
+        <input type="number" id="salariob" name="Salário Bruto" placeholder="Salário Bruto R$">
+        <br>
+        <input type="number" id="DiasFerias" name="Dias de férias" placeholder="Dias de férias">
+        <br>
+        <button onclick="CalculaFerias()">Calcular</button>
+        <p id="result" class="result"></p>
+        <p id="result2" class="result"></p>
+    </div>
+
+    
+</body>
+<script src="main.js"></script>
+</html>

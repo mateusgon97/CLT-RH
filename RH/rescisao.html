@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rescisão</title>
+    <link rel="icon" type="image/x-icon" href="img\logo.jpg">
+</head>
+<body>
+    <link rel="stylesheet" href="main.css">
+    <div>
+        <h1>Rescisão</h1>
+        <nav>
+            <a class="menu" href="index.html">HOME</a>
+            <a class="menu" href="salarioLiquido.html">Salário Líquido</a>
+            <a class="menu" href="ferias.html">Férias</a>
+            <a class="menu" href="rescisao.html">Rescisão</a>
+        </nav>
+    </div>
+    <br>
+    <div>
+        <h2 class="format1">CALCULADORA DE RESCISÃO</h2>
+        <input type="number" id="salario" name="Salário Bruto" placeholder="Salário Bruto (R$)">
+        <br>
+        <input type="number" id="fgts" name="Saldo de FGTS" placeholder="Saldo de FGTS (R$)">
+        <br>
+        <input type="number" id="fVencidas" name="Férias vencidas" placeholder="Férias vencidas (anos)">
+        <br>
+        <input type="number" id="fPendentes" name="Férias pendentes" placeholder="Férias pendentes (meses)">
+        <br>
+        <input type="number" id="mesesDecimoTerceiro" name="mesesDecimoTerceiro" placeholder="13º Pendente (meses)">
+        <br>
+        <button onclick="CalculaRescisao()">Calcular</button>
+
+
+        <p id="result" class="result"></p>
+        <p id="result2" class="result"></p>
+    </div>
+
+    
+</body>
+<script src="main.js"></script>
+</html>

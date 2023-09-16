@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(52, 37, 92, 0.226);
+    color: #fff;
+    background-position: center;
+    background-repeat: repeat-x;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+h1{
+    color: #432980;    
+}
+
+.menu{
+    background-color: #1b1d75;
+    border-radius: 10px 20px;
+    width: 180px;
+    display:inline-block;
+    color: #fff;
+    padding: 10px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(0, 17, 255);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3{
+    color:  rgb(0, 17, 255);
+}
+
+input{
+    font-size: 25px;
+}
+
+button{
+    font-size: 25px;
+}
+
+.result{
+    color: #000000;
+}
+
+.explication {
+    margin-left: 140px;
+    margin-right: 140px;
+    color: #000000;
+    text-align: justify;
+}
